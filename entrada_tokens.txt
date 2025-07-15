@@ -1,0 +1,64 @@
+FLOAT float
+ID a
+0 = 
+NUM_DEC 10.0
+; ;
+
+INT int
+ID a
+0 = 
+NUM_INT 10
+; ;
+
+VOID void
+ID cancelament0
+( (
+) )
+{ {
+INT int
+ID a
+; ;
+} }
+
+INT int
+ID x
+0 =
+ID a
++ 
+ID b
+* *
+ID c
+; ;
+
+
+INT int
+ID y
+0 = 
+NUM_INT 20
+COMP >=
+ID x
+; ;
+
+CHAR char
+ID x
+0 =
+TEXTO Pao_de_batata
+; ; 
+
+INT int
+ID x
+0 =
+NUM_INT 0
+; ;
+
+SCANF scanf
+( (
+ID x
+) )
+; ;
+
+PRINTLN println
+( (
+ID x
+) )
+; ;
